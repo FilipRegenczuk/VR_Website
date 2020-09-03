@@ -2795,9 +2795,9 @@ fieldset[disabled] .btn-default:hover {
 }
 
 .btn-primary {
-	color: #fff;
-	background-color: #8b62ff;
-	border-color: #8b62ff
+	color: rgb(0, 0, 0);
+	background-color: #ffe358;
+	border-color: #ffe358
 }
 
 .btn-primary.focus,
@@ -5427,6 +5427,7 @@ body {
 }
 
 .section-cover {
+	text-align: center;
 	background-color: rgba(255, 255, 255, 0.4)
 }
 
