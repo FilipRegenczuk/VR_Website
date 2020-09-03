@@ -955,8 +955,8 @@ pre code {
 }
 
 .row {
-	margin-left: -15px;
-	margin-right: -15px
+	margin-left: 80px;
+	margin-right: 80px
 }
 
 .row:after,
@@ -4117,7 +4117,7 @@ tbody.collapse.in {
 @media (min-width:768px) {
 	.navbar>.container-fluid .navbar-brand,
 	.navbar>.container .navbar-brand {
-		margin-left: -15px
+		margin-left: 100px
 	}
 }
 
@@ -4392,7 +4392,9 @@ tbody.collapse.in {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-	border-color: #eee
+	border-color: #eee;
+	margin-left: 100px;
+    margin-right: 100px;
 }
 
 .navbar-default .navbar-nav>.open>a,
