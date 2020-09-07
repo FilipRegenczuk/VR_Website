@@ -4135,7 +4135,7 @@ tbody.collapse.in {
 @media (min-width:768px) {
 	.navbar>.container-fluid .navbar-brand,
 	.navbar>.container .navbar-brand {
-		margin-left: 100px
+		margin-left: 20px
 	}
 }
 
@@ -4411,8 +4411,7 @@ tbody.collapse.in {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
 	border-color: #eee;
-	margin-left: 100px;
-    margin-right: 100px;
+	margin: 0px 30px
 }
 
 .navbar-default .navbar-nav>.open>a,
