@@ -123,6 +123,10 @@ hr {
 	height: 0
 }
 
+hr.green {
+	border-top: 1px solid #0dab9f
+}
+
 pre {
 	overflow: auto
 }
@@ -5646,7 +5650,9 @@ h2 {
 .pricing-features {
 	background-color: #ffffff;
 	padding: 5rem 3rem;
-	border: 1px solid lightgray
+	border: 1px solid rgb(236, 236, 236);
+	border-radius: 10px;
+	box-shadow: 2px 2px rgba(219, 219, 219, 0.74) 
 }
 
 @media (max-width:992px) {
