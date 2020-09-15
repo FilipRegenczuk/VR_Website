@@ -3162,6 +3162,14 @@ fieldset[disabled] .btn-link:hover {
 	border-radius: 2px
 }
 
+.btn-mid {
+	padding: 8px 12px;
+	width: 100%;
+	font-size: 15px;
+	line-height: 1.33333;
+	border-radius: 2px
+}
+
 .btn-group-sm>.btn,
 .btn-sm {
 	padding: 6px 10px;
