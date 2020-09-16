@@ -303,10 +303,10 @@
       <div class="modal-footer">
             <div class="row">
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonSend1" class="btn btn-mid btn-default" title="">Anuluj</a>
+                    <a id="buttonExit1" class="btn btn-mid btn-default" title="">Anuluj</a>
                 </div>
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonExit" class="btn btn-mid btn-default" title="">Wyślij</a>
+                    <a id="buttonSend1" class="btn btn-mid btn-default" title="">Wyślij</a>
                 </div>
             </div>
       </div>
@@ -330,10 +330,10 @@
       <div class="modal-footer">
             <div class="row">
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonSend1" class="btn btn-mid btn-default" title="">Anuluj</a>
+                    <a id="buttonExit2" class="btn btn-mid btn-default" title="">Anuluj</a>
                 </div>
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonExit" class="btn btn-mid btn-default" title="">Zapłać</a>
+                    <a id="buttonSend2" class="btn btn-mid btn-default" title="">Zapłać</a>
                 </div>
             </div>
       </div>
@@ -357,10 +357,10 @@
       <div class="modal-footer">
             <div class="row">
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonSend1" class="btn btn-mid btn-default" title="">Anuluj</a>
+                    <a id="buttonExit3" class="btn btn-mid btn-default" title="">Anuluj</a>
                 </div>
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonExit" class="btn btn-mid btn-default" title="">Zapłać</a>
+                    <a id="buttonSend3" class="btn btn-mid btn-default" title="">Zapłać</a>
                 </div>
             </div>
       </div>
@@ -383,10 +383,10 @@
       <div class="modal-footer">
             <div class="row">
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonSend1" class="btn btn-mid btn-default" title="">Anuluj</a>
+                    <a id="buttonExit4" class="btn btn-mid btn-default" title="">Anuluj</a>
                 </div>
                 <div class="col-md-6" style="padding: 10px">
-                    <a id="buttonExit" class="btn btn-mid btn-default" title="">Zapłać</a>
+                    <a id="buttonSend4" class="btn btn-mid btn-default" title="">Zapłać</a>
                 </div>
             </div>
       </div>
@@ -492,10 +492,10 @@
     var modal4 = document.getElementById("modal_2years");
 
     // Get the button that opens the modal
-    var btn1 = document.getElementById("button1");
-    var btn2 = document.getElementById("button2");
-    var btn3 = document.getElementById("button3");
-    var btn4 = document.getElementById("button4");
+    var btnOpen1 = document.getElementById("button1");
+    var btnOpen2 = document.getElementById("button2");
+    var btnOpen3 = document.getElementById("button3");
+    var btnOpen4 = document.getElementById("button4");
 
     // Get the <span> element that closes the modal
     var span1 = document.getElementsByClassName("closebutton")[0];
@@ -503,20 +503,25 @@
     var span3 = document.getElementsByClassName("closebutton")[2];
     var span4 = document.getElementsByClassName("closebutton")[3];
 
+    var btnExit1 = document.getElementById("buttonExit1");
+    var btnExit2 = document.getElementById("buttonExit2");
+    var btnExit3 = document.getElementById("buttonExit3");
+    var btnExit4 = document.getElementById("buttonExit4");
+
     // When the user clicks the button, open the modal 
-    btn1.onclick = function() {
+    btnOpen1.onclick = function() {
         modal1.style.display = "block";
     }
 
-    btn2.onclick = function() {
+    btnOpen2.onclick = function() {
         modal2.style.display = "block";
     }
 
-    btn3.onclick = function() {
+    btnOpen3.onclick = function() {
         modal3.style.display = "block";
     }
 
-    btn4.onclick = function() {
+    btnOpen4.onclick = function() {
         modal4.style.display = "block";
     }
 
@@ -537,6 +542,21 @@
     modal4.style.display = "none";
     }
 
+    btnExit1.onclick = function() {
+        modal1.style.display = "none";
+    }
+
+    btnExit2.onclick = function() {
+        modal2.style.display = "none";
+    }
+
+    btnExit3.onclick = function() {
+        modal3.style.display = "none";
+    }
+
+    btnExit4.onclick = function() {
+        modal4.style.display = "none";
+    }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
